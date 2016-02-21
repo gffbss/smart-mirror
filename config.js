@@ -1,10 +1,10 @@
 var config = {
     // Lenguage for the mirror (currently not implemented)
     lenguage : "en",
-    greeting : ["Hi, sexy!"], // An array of greetings to randomly choose from
+    greeting : ["Hey there!", "You of all people..."], // An array of greetings to randomly choose from
     // forcast.io
     forcast : {
-        key : "", // Your forcast.io api key
+        key : "71d5cdb9dedd19eb6a22017b7d42b75b", // Your forcast.io api key
         units : "auto" // See forcast.io documentation if you are getting the wrong units
     },
     // Philips Hue
