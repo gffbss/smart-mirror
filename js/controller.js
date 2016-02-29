@@ -13,7 +13,7 @@
             TrafficService,
             $scope, $timeout, $interval) {
         var _this = this;
-        var DEFAULT_COMMAND_TEXT = 'Say "What can I say?" to see a list of commands...';
+        var DEFAULT_COMMAND_TEXT = 'Say "Hello Hal?" to see a list of commands...';
         $scope.listening = false;
         $scope.debug = false;
         $scope.focus = "default";
@@ -89,7 +89,7 @@
             }
 
             // List commands
-            AnnyangService.addCommand('What can I say', function() {
+            AnnyangService.addCommand('Hello Hal', function() {
                 console.debug("Here is a list of commands...");
                 console.log(AnnyangService.commands);
                 $scope.focus = "commands";
