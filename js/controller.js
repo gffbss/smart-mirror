@@ -13,7 +13,7 @@
             TrafficService,
             $scope, $timeout, $interval) {
         var _this = this;
-        var DEFAULT_COMMAND_TEXT = 'Say "Hello Hal?" to see a list of commands...';
+        var DEFAULT_COMMAND_TEXT = 'Say "Hello Hal" to see a list of commands...';
         $scope.listening = false;
         $scope.debug = false;
         $scope.focus = "default";

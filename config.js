@@ -24,9 +24,9 @@ var config = {
       key : "" // Your Gliphy API key
     },
     traffic: {
-      key : "", // Bing Maps API Key
+      key : "Asu1M1lunRVP8ZTnCczHyZx-NFSCiNShUPXKoZtOOaw9KF3OExySor80FzKxVgu1", // Bing Maps API Key
       mode : "Driving", // Possibilities: Driving / Transit / Walking
-      origin : "", // Start of your trip. Human readable address.
+      origin : "2898 Jackson St. San Francisco, CA 94115", // Start of your trip. Human readable address.
       destination : "", // Destination of your trip. Human readable address.
       name : "work", // Name of your destination ex: "work"
       reload_interval : 5 // Number of minutes the information is refreshed
