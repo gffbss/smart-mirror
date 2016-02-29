@@ -28,6 +28,8 @@
             annyang.debug(true);
             annyang.start();
             if (typeof(listening) == "function") {
+                console.log(listening);
+                console.log('-------');
                 annyang.addCallback('start', function(){$rootScope.$apply(listening(true));});
                 annyang.addCallback('end', function(data){console.log("End", data)});
             };
